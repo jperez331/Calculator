@@ -1,0 +1,64 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@600&display=swap");
+
+:root {
+	--black: #151515;
+	--gray: #343434;
+	--lightGray: #e5e5e5;
+	--white: #ffffff;
+	--red: #ff5959;
+	--green: #66ff7f;
+}
+
+* {
+	margin: 0;
+	padding: 0;
+	background-color: var(--lightGray);
+	text-decoration: none;
+}
+
+/* Here Starts the footer */
+footer {
+	width: 100%;
+	height: 10%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: var(--gray);
+	font-family: "monserrat";
+}
+#footer-container {
+	width: 70%;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+	background-color: var(--gray);
+}
+.footer-divs {
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+	background-color: var(--gray);
+}
+.round-btn {
+	display: flex;
+	width: 34px;
+	height: 34px;
+	border-radius: 50%;
+	justify-content: center;
+	align-items: center;
+	padding: 4px;
+	margin: 0 20px;
+	background: var(--green);
+	font-size: 20px;
+}
+#footer-text p {
+	font-family: "Montserrat Alternates", sans-serif;
+	font-size: 15px;
+	color: var(--red);
+	background-color: var(--gray);
+}
+i {
+	background-color: var(--green);
+	color: var(--lightGray);
+}
